@@ -127,8 +127,6 @@ class AssetConverter extends \yii\web\AssetConverter
         if ((!$css = $parser->getCss()) || empty($css))
             return false;
 
-        Yii::trace("Converted $asset into $result", __METHOD__);
-
         return file_put_contents($basePath . DIRECTORY_SEPARATOR . $result, $css, LOCK_EX);
     }
 }
