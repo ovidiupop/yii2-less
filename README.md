@@ -1,6 +1,6 @@
 Yii2 Less.php
 =============
-This is a Yii2 wrapper extension for PHP port of the official LESS processor http://lesscss.org, forked from cakebake/yii2-less.php
+This is a Yii2 wrapper extension for PHP port of the official LESS processor http://lesscss.org
 
 Installation
 ------------
